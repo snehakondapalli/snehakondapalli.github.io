@@ -15,13 +15,13 @@
 			.summary-section {
 				display: flex;
 				align-items: center;
-				justify-content: center;
+				justify-content: flex-start;
 				margin-bottom: 20px;
 			}
 			.summary-section img {
-				margin-right: 20px;
-				width: 500px;
-				height: 500px;
+				margin-right: 0.5in;
+				width: 250px;
+				height: 250px;
 			}
 			.summary-text {
 				max-width: 600px;
@@ -49,31 +49,53 @@
 					<div id="main">
 
 						<!-- Content -->
-							<section id="content" class="main">
-								<div class="summary-section"></div>
-									<div style="text-align: center;"></div>
-										<span class="image main">
-											<img src="images/ML.jpeg" alt="ML logo" />
-										</span>
+							<section id="projects" class="main">
+																<!-- New Project Section 1 -->
+								<div class="summary-section">
+									<span class="image main">
+										<img src="/Users/snehakondapalli/Documents/snehakondapalli.github.io/images/medicalnotesummarizer.jpeg" alt="New Project 1" style="width:250px;height:250px;" />
+									</span>
+									<div class="summary-text">
+										<h2><a href="https://medical-note-summarizer-dyhyy2yf3dbg5dr6dv5lqz.streamlit.app">Medical Note Summarizer</a></h2>
+										<p>This project implements an AI-powered summarization pipeline for electronic medical notes using Groq's high-speed LLM API. It combines unstructured clinical notes and structured encounter metadata to generate concise, medically relevant summaries that are easy for healthcare professionals to interpret.</p>
+										<ul class="actions">
+											<li><a href="https://medical-note-summarizer-dyhyy2yf3dbg5dr6dv5lqz.streamlit.app" class="button">View Project</a></li>
+										</ul>
 									</div>
-									<div class="summary-text"></div>
+								</div>
+
+																<!-- New Project Section 2 -->
+								<div class="summary-section">
+									<span class="image main">
+										<img src="/Users/snehakondapalli/Documents/snehakondapalli.github.io/images/githubcopilot.jpeg" alt="New Project 2" style="width:250px;height:250px;" />
+									</span>
+									<div class="summary-text">
+										<h2><a href="https://github.com/snehakondapalli/skills-build-applications-w-copilot-agent-mode">Build applications with GitHub Copilot agent mode</a></h2>
+										<p>This project demonstrates how to use GitHub Copilot Agent Mode to build a full-stack web application. The application, called OctoFit Tracker, simulates a fitness tracking app for a high school gym teacher, showcasing how Copilot can generate components based on natural language prompts.</p>
+										<ul class="actions">
+											<li><a href="https://github.com/snehakondapalli/skills-build-applications-w-copilot-agent-mode" class="button">View Project</a></li>
+										</ul>
+									</div>
+								</div>
+								
+								<div class="summary-section">
+									<span class="image main">
+										<img src="images/ML.jpeg" alt="ML logo" style="width:250px;height:250px;" />
+									</span>
+									<div class="summary-text">
 										<h2><a href="https://github.com/snehakondapalli/Customer-Segmentation-with-Machine-Learning-using-Python/blob/main/Customer%20Segmentation%20with%20Machine%20Learning%20using%20Python.ipynb">Customer Segmentation with Machine Learning using Python</a></h2>
 										<p>This project will train you how to use Python using ML to analyze a real-world Problem, how to extract the most useful information from the dataset, how to pre-process the data using Python for improved performance and how to build the ML model.</p>
 										<p>In this project, you will work on real-world e-commerce sales data and segment its customer base with Python, scikit-learn library..</p>
-											<ul class="actions">
-												<li><a href="https://github.com/snehakondapalli/Customer-Segmentation-with-Machine-Learning-using-Python/blob/main/Customer%20Segmentation%20with%20Machine%20Learning%20using%20Python.ipynb" class="button">View Project</a></li>
-											</ul>
+										<ul class="actions">
+											<li><a href="https://github.com/snehakondapalli/Customer-Segmentation-with-Machine-Learning-using-Python/blob/main/Customer%20Segmentation%20with%20Machine%20Learning%20using%20Python.ipynb" class="button">View Project</a></li>
+										</ul>
 									</div>
-								</div>		
-							</section>
+								</div>
 
-							<section id="content" class="main">
 								<div class="summary-section">
-									<div style="text-align: right;">
-										<span class="image main">
-											<img src="images/python and sql.png" alt="python sql logo" style="width:500px;height:500px;" class="center" />
-										</span>
-									</div>
+									<span class="image main">
+										<img src="images/python and sql.png" alt="python sql logo" style="width:250px;height:250px;" />
+									</span>
 									<div class="summary-text">
 										<h2><a href="https://github.com/snehakondapalli/Medical-Dataset-Analysis/blob/main/Medical%20Dataset%20Analysis_Python_SQL_and_Insights.ipynb">Medical Dataset Analysis: Python, SQL, and Insights</a></h2>
 										<p>This project focuses on three critical datasets: "hospitalization_details," "medical_examinations," and "names." Divided into two essential modules, the project commences with meticulous data cleaning, ensuring the data's accuracy and structure. Once the data shines brilliantly, the second module unleashes the power of SQL queries to extract valuable insights.</p>
@@ -82,33 +104,39 @@
 										</ul>
 									</div>
 								</div>
-							</section>
-							
-							<section id="content" class="main">
+
 								<div class="summary-section">
-									<div style="text-align: right;">
-										<span class="image main"><img src="images/covid-19.jpeg" alt="covid-19 logo" style="width:500px;height:500px;" class="center"/></span>
-									</div>
+									<span class="image main"><img src="images/covid-19.jpeg" alt="covid-19 logo" style="width:250px;height:250px;"/></span>
 									<div class="summary-text">
 										<h2><a href="https://github.com/snehakondapalli/EDA_covid19/blob/main/EDA%20Project-1%20Tabular%20data%20visualization%20COVID-19%20ANALYSIS_SnehaKondapalli.ipynb">Exploratory Data Analysis on Covid-19 Dataset</a></h2>
-										<p>Tabular data visualization on COVID-19 dataset.</p>
+										<p>Tabular data visualization on COVID-19 dataset.This project performs exploratory data analysis (EDA) and interactive visualization on global COVID-19 datasets, using tools like Pandas, Matplotlib, Plotly, and Seaborn. It offers insightful tabular visualizations of confirmed cases, deaths, and recoveries across countries and states, with temporal and geographical trends.</p>
 										<ul class="actions">
 											<li><a href="https://github.com/snehakondapalli/EDA_covid19/blob/main/EDA%20Project-1%20Tabular%20data%20visualization%20COVID-19%20ANALYSIS_SnehaKondapalli.ipynb" class="button">View Project</a></li>
 										</ul>
 									</div>
 								</div>
-							</section>
 
-							<section id="content" class="main">
 								<div class="summary-section">
-									<div class="image-button-container">
-										<span class="image main"><img src="images/TABLEAU_SOFTWARE_LOGOjpg_Logo.jpg" alt="Tableau logo" style="width:500px;height:500px;"/></span>
-									</div>
+									<span class="image main"><img src="images/TABLEAU_SOFTWARE_LOGOjpg_Logo.jpg" alt="Tableau logo" style="width:250px;height:250px;"/></span>
 									<div class="summary-text">
-										<h2><a href="https://us-east-1.online.tableau.com/#/site/skndula2f1659862fe/views/Cofeechai_tableau_CXOdashboard/SalesdashboardforCXO?:iid=3">Visualizing the Sales of Coffee for CXO Meeting</a></h2>
-										<p>Sales Dashboard for a Coffee company.</p>
+										<h2><a href=https://github.com/snehakondapalli/Coffee-Shop-Sales-Dashboard-">Visualizing the Sales of Coffee for CXO Meeting</a></h2>
+										<p>Sales Dashboard for a Coffee company.An interactive Tableau dashboard showcasing the sales performance of a coffee shop. The dashboard provides insights into sales trends, product performance, regional profits, and cost metrics from 2010 to 2011.</p>
 										<ul class="actions">
-											<li><a href="https://us-east-1.online.tableau.com/#/site/skndula2f1659862fe/views/Cofeechai_tableau_CXOdashboard/SalesdashboardforCXO?:iid=3" class="button">View Project</a></li>
+											<li><a href="https://github.com/snehakondapalli/Coffee-Shop-Sales-Dashboard-" class="button">View Project</a></li>
+										</ul>
+									</div>
+								</div>
+
+								<!-- New Project Section 3 -->
+								<div class="summary-section">
+									<span class="image main">
+										<img src="/Users/snehakondapalli/Documents/snehakondapalli.github.io/images/classification.png" alt="Income Predictions" style="width:250px;height:250px;" />
+									</span>
+									<div class="summary-text">
+										<h2><a href="https://github.com/snehakondapalli/MachineLearning_IncomePredictions_Pyspark">Income Predictions</a></h2>
+										<p>This project is a machine learning task using the adult dataset. The goal is to predict whether an individual's income is above or below 50K based on various features like age, education, occupation, etc.</p>
+										<ul class="actions">
+											<li><a href="https://github.com/snehakondapalli/MachineLearning_IncomePredictions_Pyspark" class="button">View Project</a></li>
 										</ul>
 									</div>
 								</div>
